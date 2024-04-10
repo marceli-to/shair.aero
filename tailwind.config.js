@@ -17,48 +17,17 @@ export default {
       screens: {
         'xs': '414px',
       },
-
-      maxWidth: {
-        site: '1600px',
-        content: '1080px'
-      },
-
+      
       fontFamily: {
-        'meta-bold': ['MetaProBold', ...defaultTheme.fontFamily.sans],
-        'meta-medium': ['MetaProMedium', ...defaultTheme.fontFamily.sans],
-        'meta-regular': ['MetaProRegular', ...defaultTheme.fontFamily.sans],
-        'meta-light': ['MetaProLight', ...defaultTheme.fontFamily.sans],
+        'sans-medium': ['Theinhardt-Medium', ...defaultTheme.fontFamily.sans],
+        'sans-regular': ['Theinhardt-Regular', ...defaultTheme.fontFamily.sans],
       },
 
       fontSize: {
-        'mini': '0.8125rem', // 13px
-        'xxs': '0.9375rem',  // 15px
-        'xs': '1rem',        // 16px
-        'sm': '1.125rem',    // 18px
-        'md': '1.25rem',     // 20px
-        'lg': '1.375rem',    // 22px
-        'xl': '1.5625rem',   // 25px
-        '2xl': '1.75rem',    // 28px
-        '3xl': '1.875rem',   // 30px
-        '4xl': '2.1875rem',  // 35px
-        '5xl': '2.375rem',   // 38px
-        '6xl': '2.8125rem',  // 45px
-        '7xl': '3.4375rem',  // 55px => was 6xl
-        '8xl': '4.375rem',   // 70px => was 7xl
-      },
-
-      letterSpacing: {
-        widest: '.1em',
-      },
-
-      listStyleType: {
-        square: 'square',
-      },
-
-      colors: {
-        'graphite': '#707070',
-        'silver': '#E5E5E5',
-        'steel': '#a2a2a2',
+        'sm': '1rem', // 16px
+        'base': '1.125rem', // 18px
+        'md': '1.5rem', // 24px
+        'lg': '2.25rem', // 36px
       },
       
     },

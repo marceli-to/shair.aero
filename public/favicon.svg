@@ -1,11 +1,4 @@
-<svg width="430" height="480" viewBox="0 0 430 480" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>
-@media (prefers-color-scheme: dark) {
-.path { fill: #ffffff }
-}
-</style>
-<rect class="rect" width="430" height="480" fill="transparent"/>
-<path class="path" d="M87.2339 0L0 109.149V480L87.2339 370.958V0Z" fill="black"/>
-<path class="path" d="M312.695 463.002L116.419 182.913V17.1047L312.695 297.087V463.002Z" fill="black"/>
-<path class="path" d="M429.114 0L341.88 109.149V480L429.114 370.958V0Z" fill="black"/>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M196 186.541L395.906 302.306V343.53L260.376 422.024L115.812 339.012L52 376.282L260.376 496L460.282 380.8V265.6L260.376 149.835L196 186.541Z" fill="#1D1D1B"/>
+<path d="M252.471 16L52 131.765V246.965L252.471 362.165L316.282 325.459L116.376 209.694V168.471L252.471 89.9765L396.471 172.988L460.282 136.282L252.471 16Z" fill="#1D1D1B"/>
 </svg>

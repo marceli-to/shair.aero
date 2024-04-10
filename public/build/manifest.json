@@ -1,40 +1,24 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-baeae538.css",
+    "file": "assets/app-8ae15eaf.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
-  "resources/css/fonts/MetaPro-Bold.woff": {
-    "file": "assets/MetaPro-Bold-abd73a82.woff",
-    "src": "resources/css/fonts/MetaPro-Bold.woff"
+  "resources/css/fonts/Theinhardt-Medium.woff": {
+    "file": "assets/Theinhardt-Medium-5a8923d8.woff",
+    "src": "resources/css/fonts/Theinhardt-Medium.woff"
   },
-  "resources/css/fonts/MetaPro-Bold.woff2": {
-    "file": "assets/MetaPro-Bold-f63ebe16.woff2",
-    "src": "resources/css/fonts/MetaPro-Bold.woff2"
+  "resources/css/fonts/Theinhardt-Medium.woff2": {
+    "file": "assets/Theinhardt-Medium-cf51aaca.woff2",
+    "src": "resources/css/fonts/Theinhardt-Medium.woff2"
   },
-  "resources/css/fonts/MetaPro-Light.woff": {
-    "file": "assets/MetaPro-Light-9f915114.woff",
-    "src": "resources/css/fonts/MetaPro-Light.woff"
+  "resources/css/fonts/Theinhardt-Regular.woff": {
+    "file": "assets/Theinhardt-Regular-319077dd.woff",
+    "src": "resources/css/fonts/Theinhardt-Regular.woff"
   },
-  "resources/css/fonts/MetaPro-Light.woff2": {
-    "file": "assets/MetaPro-Light-ec0b50fb.woff2",
-    "src": "resources/css/fonts/MetaPro-Light.woff2"
-  },
-  "resources/css/fonts/MetaPro-Medium.woff": {
-    "file": "assets/MetaPro-Medium-c2cd8f72.woff",
-    "src": "resources/css/fonts/MetaPro-Medium.woff"
-  },
-  "resources/css/fonts/MetaPro-Medium.woff2": {
-    "file": "assets/MetaPro-Medium-369f6a87.woff2",
-    "src": "resources/css/fonts/MetaPro-Medium.woff2"
-  },
-  "resources/css/fonts/MetaPro.woff": {
-    "file": "assets/MetaPro-52fc29c0.woff",
-    "src": "resources/css/fonts/MetaPro.woff"
-  },
-  "resources/css/fonts/MetaPro.woff2": {
-    "file": "assets/MetaPro-4d6c1560.woff2",
-    "src": "resources/css/fonts/MetaPro.woff2"
+  "resources/css/fonts/Theinhardt-Regular.woff2": {
+    "file": "assets/Theinhardt-Regular-5b5aa8c3.woff2",
+    "src": "resources/css/fonts/Theinhardt-Regular.woff2"
   },
   "resources/js/app.js": {
     "file": "assets/app-154cb3de.js",
