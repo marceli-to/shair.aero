@@ -1,0 +1,21 @@
+<header>
+  
+    <a 
+      href="{{ site:url }}" 
+      title="Home"
+      :class="{ 'is-active': menu === true }"
+      class="group">
+    </a>
+
+    <a 
+      href="javascript:;" 
+      x-on:click="menu = ! menu" 
+      title="{{ "Menü anzeigen" | trans }}"
+      :class="{ 'is-active': menu === true }"
+      class="group">
+      {{ partial:components/icons/burger class="w-28 xl:w-32 h-auto" }}
+    </a>
+
+</header>
+
+{{ partial:menu/wrapper }}
