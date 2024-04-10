@@ -1,10 +1,13 @@
-<header>
+<header class="fixed top-0 left-0 w-full z-20 p-16 lg:p-32 bg-white h-84 lg:h-auto">
   
+  <div class="flex justify-between items-center">
+
     <a 
       href="{{ site:url }}" 
       title="Home"
       :class="{ 'is-active': menu === true }"
       class="group">
+      {{ partial:icons/logo class="w-200 lg:w-[320px] h-auto" }}
     </a>
 
     <a 
@@ -12,10 +15,17 @@
       x-on:click="menu = ! menu" 
       title="{{ "Menü anzeigen" | trans }}"
       :class="{ 'is-active': menu === true }"
-      class="group">
-      {{ partial:components/icons/burger class="w-28 xl:w-32 h-auto" }}
+      class="group flex justify-center lg:hidden">
+      <span x-show="menu === false">
+        {{ partial:icons/burger class="w-24 h-auto" }}
+      </span>
+      <span x-cloak x-show="menu === true">
+        {{ partial:icons/cross class="w-20 h-auto text-black" }}
+      </span>
     </a>
+    {{ partial:menu/wrapper }}
+
+  </div>
 
 </header>
 
-{{ partial:menu/wrapper }}

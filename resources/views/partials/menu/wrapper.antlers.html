@@ -1,16 +1,12 @@
 <div 
   x-cloak 
   x-show="menu"
-  x-transition:enter="transition ease-in duration-0"
-  x-transition:enter-start="opacity-0"
-  x-transition:enter-end="opacity-100"
-  x-transition:leave="transition ease-in duration-0"
-  x-transition:leave-start="opacity-0"
-  x-transition:leave-end="opacity-0"
-  class="bg-white fixed left-0 top-0 z-40 w-full h-full overflow-y-auto flex flex-col justify-center">
-  <div class="w-full max-w-content mx-auto px-35">
-    <div class="flex justify-between relative">
-      {{ partial:menu/main/wrapper }}
-    </div>
-  </div>
+  x-transition:enter="transition ease-in duration-150"
+  x-transition:enter-start="translate-x-full"
+  x-transition:enter-end="translate-x-0"
+  x-transition:leave="transition ease-in duration-150"
+  x-transition:leave-start="translate-x-0"
+  x-transition:leave-end="translate-x-full"
+  class="bg-white fixed lg:relative right-0 top-84 lg:top-0 z-40 w-180 lg:w-full h-[calc(100%_-_84px)] lg:h-auto overflow-y-auto flex flex-col justify-start items-end pr-16 lg:!pr-0 lg:!block">
+  {{ partial:menu/main/wrapper }}
 </div>

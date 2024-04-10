@@ -19,11 +19,11 @@ return [
       'locale' => 'de',
       'url' => env('APP_URL').'/'
     ],
-    // 'en' => [
-    //   'name' => 'English',
-    //   'locale' => 'en',
-    //   'lang' => 'en',
-    //   'url' => env('APP_URL').'/en/'
-    // ]
+    'en' => [
+      'name' => 'English',
+      'locale' => 'en',
+      'lang' => 'en',
+      'url' => env('APP_URL').'/en/'
+    ]
   ],
 ];
