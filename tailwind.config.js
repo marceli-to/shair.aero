@@ -17,6 +17,21 @@ export default {
       screens: {
         'xs': '414px',
       },
+
+      gridTemplateColumns: {
+        '16': 'repeat(16, minmax(0, 1fr))',
+      },
+
+      gridColumn: {
+        'span-13': 'span 13 / span 13',
+        'span-14': 'span 14 / span 14',
+        'span-15': 'span 15 / span 15',
+        'span-16': 'span 16 / span 16',
+      },
+
+      maxWidth: {
+        site: '1600px',
+      },
       
       fontFamily: {
         'sans-medium': ['Theinhardt-Medium', ...defaultTheme.fontFamily.sans],

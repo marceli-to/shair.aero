@@ -1,3 +1,11 @@
-h1, h2, h3 {
+h1 {
+  @apply font-sans-medium mb-24
+}
 
+.is-home h1 {
+  @apply mb-32 text-md lg:text-lg
+}
+
+h2 {
+  @apply font-sans-medium
 }

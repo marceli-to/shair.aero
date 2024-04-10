@@ -6,6 +6,10 @@
     {{ partial:layout/header }}
   {{ /slot:header }}
 
+  {{ if is_homepage }}
+    <img src="/assets/visual-shair.aero.jpg" alt="Visual Shair" class="w-full h-screen object-cover absolute top-0 left-0 z-0" />
+  {{ /if }}
+
   {{ partial:layout/main }}
 
   {{ slot:footer }}

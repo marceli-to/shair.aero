@@ -18,3 +18,11 @@ html {
 
 body {
 }
+
+main p:not(:last-of-type) {
+  @apply mb-24
+}
+
+strong {
+  @apply font-sans-medium font-medium
+}

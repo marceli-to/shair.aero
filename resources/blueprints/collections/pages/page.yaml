@@ -29,7 +29,25 @@ tabs:
               previews: true
               fullscreen: true
               sets:
-                
+                content_elements:
+                  display: 'Content elements'
+                  instructions: null
+                  icon: null
+                  sets:
+                    editor:
+                      display: Editor
+                      instructions: null
+                      icon: text-formatting-markdown
+                      fields:
+                        -
+                          import: editor
+                    page_section:
+                      display: Section
+                      instructions: null
+                      icon: layout-split-horizontal
+                      fields:
+                        -
+                          import: page_section
               type: replicator
               display: Inhalte
               icon: replicator
