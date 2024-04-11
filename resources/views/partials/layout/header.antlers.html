@@ -1,11 +1,11 @@
 <header class="sticky top-0 w-full z-20 {{ is_homepage ? 'p-16' : 'pt-16' }} lg:pt-24 xl:pt-32 bg-white min-h-84 lg:h-auto">
   <div class="grid grid-cols-8 md:grid-cols-16 gap-x-16 max-w-site mx-auto">
-    <div class="col-span-7 md:col-span-6 xl:col-span-5 xl:col-start-2">
+    <div class="col-span-7 md:col-span-6 xl:col-span-4 xl:col-start-3">
       <a 
         href="{{ site:url }}" 
         title="Home"
         :class="{ 'is-active': menu === true }"
-        class="group relative xl:-left-20 2xl:-left-15">
+        class="group relative xl:-left-117">
         {{ partial:icons/logo class="w-200 lg:w-[320px] h-auto" }}
       </a>
     </div>
