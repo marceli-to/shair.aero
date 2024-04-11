@@ -1,6 +1,19 @@
 title: Settings
 fields:
   -
+    handle: debug
+    field:
+      default: false
+      type: toggle
+      display: Debug
+      icon: toggle
+      localizable: false
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
     handle: template
     field:
       hide_partials: true

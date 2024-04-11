@@ -47,6 +47,13 @@ fields:
               fields:
                 -
                   import: course
+            location:
+              display: Location
+              instructions: null
+              icon: form-address-field
+              fields:
+                -
+                  import: location
       type: replicator
       display: Elements
       icon: replicator
