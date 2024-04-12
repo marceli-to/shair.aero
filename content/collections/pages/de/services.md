@@ -3,7 +3,7 @@ id: 25d7d44b-0f44-4792-802b-2cd0139a4f7d
 blueprint: page
 title: Services
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1712860626
+updated_at: 1712910800
 page_elements:
   -
     id: lutqdcrf
@@ -107,5 +107,6 @@ page_elements:
         enabled: true
     type: page_section
     enabled: true
+open_graph_description: 'Seit der Gründung im Jahr 2015 hat es sich die ShAir AG zur Aufgabe gemacht, den Bedarf an flexiblen Teilzeitmitarbeitenden in den verschiedensten Bereichen am Flughafen Zürich, zusammen mit ihrem Partner Coople (Schweiz) AG zu decken. Über die Jahre ist das Angebot immer weiter gewachsen, so dass neben der Vermittlung von flexiblen Mitarbeitenden nun weitere Dienstleistungen rund um das Personalmanagement dazugekommen sind.'
 debug: false
 ---
