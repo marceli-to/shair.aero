@@ -54,6 +54,13 @@ fields:
               fields:
                 -
                   import: location
+            editor:
+              display: Editor
+              instructions: null
+              icon: text-formatting-markdown
+              fields:
+                -
+                  import: editor
       type: replicator
       display: Elements
       icon: replicator

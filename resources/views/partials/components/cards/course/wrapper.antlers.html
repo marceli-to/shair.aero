@@ -1,12 +1,12 @@
-<div class="mb-40 sm:col-span-full border-t border-t-black pt-20">
+<div class="mb-68 sm:col-span-full border-t border-t-black pt-20">
 {{ if group }}
-  <div class="sm:grid sm:grid-cols-9 sm:gap-x-16 mb-40">
+  <div class="sm:grid sm:grid-cols-9 sm:gap-x-16">
     <div class="sm:col-span-3">
       {{ if image }}
         {{ partial:components/cards/course/image }}
       {{ /if }}
     </div>
-    <div class="sm:col-span-6">
+    <div class="sm:col-span-5 sm:col-start-5">
       <div class="mb-40">
         <h2 class="mb-8">{{ course_title }}</h2>
         {{ if course_description }}
@@ -14,7 +14,7 @@
         {{ /if }}
       </div>
       {{ course }}
-        <div class="border-t border-t-black pt-20 mb-40">
+        <div class="border-t border-t-black pt-20 mb-68 last-of-type:mb-0">
           {{ partial:components/cards/course/text }}
         </div>
       {{ /course }}
@@ -22,13 +22,13 @@
   </div>
 {{ else }}
   {{ course }}
-    <div class="sm:grid sm:grid-cols-9 sm:gap-x-16 mb-40">
+    <div class="sm:grid sm:grid-cols-9 sm:gap-x-16">
       <div class="sm:col-span-3">
         {{ if image }}
           {{ partial:components/cards/course/image }}
         {{ /if }}
       </div>
-      <div class="sm:col-span-6">
+      <div class="sm:col-span-5 sm:col-start-5">
         {{ partial:components/cards/course/text }}
       </div>
     </div>

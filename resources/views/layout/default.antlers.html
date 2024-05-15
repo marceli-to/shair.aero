@@ -7,7 +7,10 @@
   {{ /slot:header }}
 
   {{ if is_homepage }}
-    <img src="/assets/visual-shair.aero.jpg" alt="Visual Shair" class="w-full h-full object-cover absolute top-0 left-0 z-0" />
+    <picture>
+      <source media="(min-width: 1024px)" srcset="/assets/visual-home-shair.aero-lg.jpg" type="image/jpeg">
+      <img src="/assets/visual-home-shair.aero.jpg" alt="Visual Shair" class="w-full h-full object-cover absolute top-0 left-0 z-0" />
+    </picture>
   {{ /if }}
 
   {{ partial:layout/main }}

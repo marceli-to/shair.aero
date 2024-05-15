@@ -28,6 +28,13 @@
         {{ partial:components/cards/location }}
       {{ /if }}
 
+      {{ if type == 'editor' }}
+        <div class="mb-40 sm:col-span-10">
+          {{ content  }}
+        </div>
+      {{ /if }}
+
+
     {{ /elements }}
     </div>
   </div>
