@@ -3,7 +3,7 @@ id: c026827b-709c-4065-8e8c-83782f4083a9
 blueprint: page
 title: Kontakt
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1712826395
+updated_at: 1715086294
 page_elements:
   -
     id: luuzzmqi
@@ -71,17 +71,12 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Terminal Rind 1, Zentralgebäude Ist'
+                text: 'Peter-Müller-Strasse 20'
               -
                 type: hardBreak
               -
                 type: text
-                text: '6. Etage, Raum ZG 6.056'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: '40474 Düsseldorf'
+                text: '40468 Düsseldorf'
           -
             type: paragraph
             attrs:
@@ -102,4 +97,5 @@ page_elements:
         enabled: true
     type: page_section
     enabled: true
+debug: false
 ---
