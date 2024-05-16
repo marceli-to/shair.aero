@@ -92,7 +92,7 @@ fields:
   -
     handle: course
     field:
-      collapse: false
+      collapse: true
       previews: true
       fullscreen: true
       sets:

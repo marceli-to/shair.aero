@@ -3,7 +3,7 @@ id: 50a4a4da-1f77-4316-95f5-d7bc6ecb1b07
 blueprint: page
 title: Academy
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1715783723
+updated_at: 1715841814
 page_elements:
   -
     id: lutvqtik
@@ -47,9 +47,17 @@ page_elements:
                     text: 'Dauer:'
                   -
                     type: text
-                    text: ' 4 Tage'
+                    text: ' '
                   -
                     type: hardBreak
+                  -
+                    type: text
+                    text: '4 Tage'
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
                   -
                     type: text
                     marks:
@@ -57,16 +65,23 @@ page_elements:
                         type: bold
                     text: 'Sprache:'
                   -
-                    type: text
-                    text: ' Deutsch'
-                  -
                     type: hardBreak
+                  -
+                    type: text
+                    text: Deutsch
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Ort: '
+                    text: 'Ort:'
+                  -
+                    type: hardBreak
                   -
                     type: text
                     text: "Cargologic AG, Fracht Ost,\_ 8058 Zürich Flughafen"
@@ -80,7 +95,9 @@ page_elements:
                     marks:
                       -
                         type: bold
-                    text: 'Kosten: '
+                    text: 'Kosten:'
+                  -
+                    type: hardBreak
                   -
                     type: text
                     text: 'CHF 1’560.00 (exkl. MwSt)'
@@ -96,8 +113,10 @@ page_elements:
                         type: bold
                     text: 'Inhalt:'
                   -
+                    type: hardBreak
+                  -
                     type: text
-                    text: ' Gemäss Richtlinie EKAS 6518 für Staplertypen R1 und R2'
+                    text: 'Gemäss Richtlinie EKAS 6518 für Staplertypen R1 und R2'
               -
                 type: paragraph
                 attrs:
@@ -110,8 +129,10 @@ page_elements:
                         type: bold
                     text: 'Voraussetzung:'
                   -
+                    type: hardBreak
+                  -
                     type: text
-                    text: " Mindestalter 18 Jahre, Deutschkenntnisse Stufe B1, gute Auffassungsgabe, generell gute\_ körperliche Verfassung, gutes Seh- und Hörvermögen, technisches Verständnis, zuverlässige, verantwortungsvolle und umsichtige Handlungsweise"
+                    text: "Mindestalter 18 Jahre, Deutschkenntnisse Stufe B1, gute Auffassungsgabe, generell gute\_ körperliche Verfassung, gutes Seh- und Hörvermögen, technisches Verständnis, zuverlässige, verantwortungsvolle und umsichtige Handlungsweise"
             type: course
             enabled: true
         type: course
@@ -138,10 +159,15 @@ page_elements:
                         type: bold
                     text: 'Dauer:'
                   -
-                    type: text
-                    text: ' 4 Tage'
-                  -
                     type: hardBreak
+                  -
+                    type: text
+                    text: '4 Tage'
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
                   -
                     type: text
                     marks:
@@ -149,16 +175,23 @@ page_elements:
                         type: bold
                     text: 'Sprache:'
                   -
-                    type: text
-                    text: ' Deutsch'
-                  -
                     type: hardBreak
+                  -
+                    type: text
+                    text: Deutsch
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Ort: '
+                    text: 'Ort:'
+                  -
+                    type: hardBreak
                   -
                     type: text
                     text: "Cargologic AG, Fracht Ost,\_ 8058 Zürich Flughafen"
@@ -172,7 +205,9 @@ page_elements:
                     marks:
                       -
                         type: bold
-                    text: 'Kosten: '
+                    text: 'Kosten:'
+                  -
+                    type: hardBreak
                   -
                     type: text
                     text: 'CHF 1’560.00 (exkl. MwSt)'
@@ -188,8 +223,10 @@ page_elements:
                         type: bold
                     text: 'Inhalt:'
                   -
+                    type: hardBreak
+                  -
                     type: text
-                    text: ' Gemäss Richtlinie EKAS 6518 für Staplertypen R1 und R2'
+                    text: 'Gemäss Richtlinie EKAS 6518 für Staplertypen R1 und R2'
               -
                 type: paragraph
                 attrs:
@@ -202,8 +239,10 @@ page_elements:
                         type: bold
                     text: 'Voraussetzung:'
                   -
+                    type: hardBreak
+                  -
                     type: text
-                    text: " Mindestalter 18 Jahre, Deutschkenntnisse Stufe B1, gute Auffassungsgabe, generell gute\_ körperliche Verfassung, gutes Seh- und Hörvermögen, technisches Verständnis, zuverlässige, verantwortungsvolle und umsichtige Handlungsweise."
+                    text: "Mindestalter 18 Jahre, Deutschkenntnisse Stufe B1, gute Auffassungsgabe, generell gute\_ körperliche Verfassung, gutes Seh- und Hörvermögen, technisches Verständnis, zuverlässige, verantwortungsvolle und umsichtige Handlungsweise."
             type: course
             enabled: true
         type: course
@@ -240,9 +279,17 @@ page_elements:
                     text: 'Dauer:'
                   -
                     type: text
-                    text: ' 4 Stunden'
+                    text: ' '
                   -
                     type: hardBreak
+                  -
+                    type: text
+                    text: '4 Stunden'
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
                   -
                     type: text
                     marks:
@@ -251,15 +298,25 @@ page_elements:
                     text: 'Sprache:'
                   -
                     type: text
-                    text: ' Deutsch'
+                    text: ' '
                   -
                     type: hardBreak
+                  -
+                    type: text
+                    text: Deutsch
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
                     text: 'Ort: '
+                  -
+                    type: hardBreak
                   -
                     type: text
                     text: "Cargologic AG, Fracht Ost,\_ 8058 Zürich Flughafen"
@@ -276,7 +333,12 @@ page_elements:
                     text: 'Kosten:'
                   -
                     type: text
-                    text: ' CHF 445.00 (exkl. MwSt)'
+                    text: ' '
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    text: 'CHF 445.00 (exkl. MwSt)'
               -
                 type: paragraph
                 attrs:
@@ -290,7 +352,12 @@ page_elements:
                     text: 'Inhalt:'
                   -
                     type: text
-                    text: " Grundlagen der Aviatik General Safety & Aviation Security Gefahrgutkurs (IATA Zertifikat) Fahrausbildung Vorfeld Grundkenntnisse Abfertigung Grundkenntnisse Bedienung GSE\_"
+                    text: ' '
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    text: "Grundlagen der Aviatik General Safety & Aviation Security Gefahrgutkurs (IATA Zertifikat) Fahrausbildung Vorfeld Grundkenntnisse Abfertigung Grundkenntnisse Bedienung GSE\_"
               -
                 type: paragraph
                 attrs:
@@ -304,7 +371,12 @@ page_elements:
                     text: 'Voraussetzung:'
                   -
                     type: text
-                    text: ' Mindestalter 18 Jahre, gute Deutschkenntnisse, gute körperliche Verfassung einwandfreier Leumund'
+                    text: ' '
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    text: 'Mindestalter 18 Jahre, gute Deutschkenntnisse, gute körperliche Verfassung einwandfreier Leumund'
             type: course
             enabled: true
             course_item_subtitle: 'Basisausbildung für das erforderliche Grundwissen in der Flugzeug Be-/Entladung auf dem Vorfeld'
@@ -326,9 +398,17 @@ page_elements:
                     text: 'Dauer:'
                   -
                     type: text
-                    text: ' 4 Stunden'
+                    text: ' '
                   -
                     type: hardBreak
+                  -
+                    type: text
+                    text: '4 Stunden'
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
                   -
                     type: text
                     marks:
@@ -337,15 +417,25 @@ page_elements:
                     text: 'Sprache:'
                   -
                     type: text
-                    text: ' Deutsch'
+                    text: ' '
                   -
                     type: hardBreak
+                  -
+                    type: text
+                    text: Deutsch
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
                   -
                     type: text
                     marks:
                       -
                         type: bold
                     text: 'Ort: '
+                  -
+                    type: hardBreak
                   -
                     type: text
                     text: "Cargologic AG, Fracht Ost,\_ 8058 Zürich Flughafen"
@@ -362,7 +452,12 @@ page_elements:
                     text: 'Kosten:'
                   -
                     type: text
-                    text: ' CHF 445.00 (exkl. MwSt)'
+                    text: ' '
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    text: 'CHF 445.00 (exkl. MwSt)'
               -
                 type: paragraph
                 attrs:
@@ -376,7 +471,12 @@ page_elements:
                     text: 'Inhalt:'
                   -
                     type: text
-                    text: " Grundlagen der Aviatik General Safety & Aviation Security Gefahrgutkurs (IATA Zertifikat) Fahrausbildung Vorfeld Grundkenntnisse Abfertigung Grundkenntnisse Bedienung GSE\_"
+                    text: ' '
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    text: 'Grundlagen der Aviatik General Safety & Aviation Security Gefahrgutkurs (IATA Zertifikat) Fahrausbildung Vorfeld Grundkenntnisse Abfertigung Grundkenntnisse Bedienung GSE'
               -
                 type: paragraph
                 attrs:
@@ -390,7 +490,12 @@ page_elements:
                     text: 'Voraussetzung:'
                   -
                     type: text
-                    text: ' Mindestalter 18 Jahre, gute Deutschkenntnisse, gute körperliche Verfassung einwandfreier Leumund.'
+                    text: ' '
+                  -
+                    type: hardBreak
+                  -
+                    type: text
+                    text: 'Mindestalter 18 Jahre, gute Deutschkenntnisse, gute körperliche Verfassung einwandfreier Leumund.'
             type: course
             enabled: true
         type: course
