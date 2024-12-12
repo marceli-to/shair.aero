@@ -22,7 +22,9 @@ public/robots.txt
 public/.htaccess
 INSTALL.txt
 
+content
 public/assets
+public/img
 resources/users
 users
 storage/forms/contact_form
