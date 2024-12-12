@@ -15,10 +15,14 @@
       {{ /nav:main }}
     </ul>
 
+
     <ul class="flex flex-col gap-y-16 mt-48 text-right text-sm lg:hidden">
       {{ nav:privacy }}
         {{ partial:menu/privacy/item }}
       {{ /nav:privacy }}
     </ul>
+
+    {{ partial:menu/language/wrapper class="lg:hidden" }}
+
   </nav>
 </div>
