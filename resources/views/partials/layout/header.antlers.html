@@ -9,7 +9,7 @@
         {{ partial:icons/logo class="w-200 xl:w-[280px] h-auto" }}
       </a>
     </div>
-    <div class="col-span-1 md:col-span-10 xl:col-span-9 flex items-center justify-end">
+    {{# <div class="col-span-1 md:col-span-10 xl:col-span-9 flex items-center justify-end">
       <a 
         href="javascript:;" 
         x-on:click="menu = ! menu" 
@@ -25,7 +25,6 @@
       </a>
       {{ partial:menu/wrapper }}
     </div>
-    {{ partial:menu/language/wrapper class="hidden lg:flex" }}
-
+    {{ partial:menu/language/wrapper class="hidden lg:flex" }} #}}
   </div>
 </header>
