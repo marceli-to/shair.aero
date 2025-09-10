@@ -1,17 +1,17 @@
 <footer class="hidden lg:block absolute bottom-16 right-16 z-40 text-white">
-  {{# <nav class="flex gap-x-32">
+  <nav class="flex gap-x-32">
     <a 
       href="https://axs.aero/"
       title="axs.aero"
       target="_blank">
-      {{ partial:icons/logo-axs class="w-44 h-auto mt-1" }}
+      {{ partial:icons/logo-axs class="w-44 h-auto mt-1 {{ !is_homepage ? 'text-black' : 'text-white' }}" }}
     </a>
     <ul class="flex gap-x-16">
       {{ nav:privacy }}
         {{ partial:menu/privacy/item class="text-sm {{ !is_homepage ? 'text-black' : 'text-white' }}" }}
       {{ /nav:privacy }}
     </ul>
-  </nav> #}}
+  </nav>
 </footer>
 {{ vite src="resources/js/app.js" }}
 <script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="RMOnm5alEaFSQe" async></script>
